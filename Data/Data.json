@@ -1,0 +1,186 @@
+{
+  "Products": [
+    {
+      "id": "1",
+      "Name": "MOBILES",
+      "image": "http://localhost:3000/Images/Mobiles.jpg",
+      "link": "/products/mobiles"
+    },
+    {
+      "id": "2",
+      "Name": "LAPTOPS",
+      "image": "http://localhost:3000/Images/Laptops.jpg",
+      "link": "/products/laptops"
+    },
+    {
+      "id": "3",
+      "Name": "SHOES",
+      "image": "http://localhost:3000/Images/shoes (2).jpg",
+      "link": "/products/shoes"
+    },
+    {
+      "id": "4",
+      "Name": "SKINCARE",
+      "image": "http://localhost:3000/Images/Products.jpg",
+      "link": "/products/skincare"
+    }
+  ],
+  "Mobiles": [
+    {
+      "id": "1",
+      "name": "IPHONE 14",
+      "price": "₹1,70,000",
+      "image": "http://localhost:3000/mobiles/mobile1.jpg",
+      "link": "/products/mobiles/iphone"
+    },
+    {
+      "id": "2",
+      "name": "Samsung S23",
+      "price": "₹1,00,000",
+      "image": "http://localhost:3000/mobiles/mobile2.jpg",
+      "link": "/products/mobiles/samsungs23"
+    },
+    {
+      "id": "3",
+      "name": "Redmi",
+      "price": "₹15,000",
+      "image": "http://localhost:3000/mobiles/Redmi.jpg",
+      "link": "/products/mobiles/Redmi"
+    },
+    {
+      "id": "4",
+      "name": "Realme",
+      "price": "₹20,000",
+      "image": "http://localhost:3000/mobiles/Realme.jpg",
+      "link": "/products/mobiles/Realme"
+    },
+    {
+      "id": "5",
+      "name": "POCO X&",
+      "price": "₹25,000",
+      "image": "http://localhost:3000/mobiles/pocox7.webp",
+      "link": "/products/mobiles/pocox7"
+    },
+    {
+      "id": "6",
+      "name": "Iqoo neo 10",
+      "price": "₹35,000",
+      "image": "http://localhost:3000/mobiles/Iqooneo 10.jpg",
+      "link": "/products/mobiles/IqooNeo10"
+    },
+    {
+      "id": "7",
+      "name": "Oneplus Nord 5",
+      "price": "₹47,000",
+      "image": "http://localhost:3000/mobiles/OneplusNord5.webp",
+      "link": "/products/mobiles/OneplusNord5"
+    },
+    {
+      "id": "8",
+      "name": "OPPO RENO 14",
+      "price": "₹27,000",
+      "image": "http://localhost:3000/mobiles/OppoReno14.webp",
+      "link": "/products/mobiles/Opporeno14"
+    }
+  ],
+  "Laptops": [
+    {
+      "id": "1",
+      "name": "ACER",
+      "price": "₹1,70,000",
+      "image": "http://localhost:3000/lapimage/Acer.webp"
+    },
+    {
+      "id": "2",
+      "name": "APPLE MAC",
+      "price": "₹1,00,000",
+      "image": "http://localhost:3000/lapimage/Apple MAc.webp"
+    },
+    {
+      "id": "3",
+      "name": "ASUS",
+      "price": "₹15,000",
+      "image": "http://localhost:3000/lapimage/Asus.webp"
+    },
+    {
+      "id": "4",
+      "name": "DELL",
+      "price": "₹20,000",
+      "image": "http://localhost:3000/lapimage/DELL.webp"
+    },
+    {
+      "id": "5",
+      "name": "HP",
+      "price": "₹60,000",
+      "image": "http://localhost:3000/lapimage/HP.webp"
+    },
+    {
+      "id": "6",
+      "name": "INFINIX",
+      "price": "₹35,000",
+      "image": "http://localhost:3000/lapimage/Infinix.webp"
+    },
+    {
+      "id": "7",
+      "name": "LENOVO",
+      "price": "₹47,000",
+      "image": "http://localhost:3000/lapimage/Lenovo.webp"
+    },
+    {
+      "id": "8",
+      "name": "SAMSUNG",
+      "price": "₹60,000",
+      "image": "http://localhost:3000/lapimage/Samsung.webp"
+    }
+  ],
+  "Shoes": [
+    {
+      "id": "1",
+      "name": "AJANTA",
+      "price": "₹600",
+      "image": "http://localhost:3000/shoesimage/AJANTAshoes.webp"
+    },
+    {
+      "id": "2",
+      "name": "ASIAN",
+      "price": "₹300",
+      "image": "http://localhost:3000/shoesimage/asianshoes.webp"
+    },
+    {
+      "id": "3",
+      "name": "BRUTON",
+      "price": "₹500",
+      "image": "http://localhost:3000/shoesimage/Brutonshoes.webp"
+    },
+    {
+      "id": "4",
+      "name": "D GOT",
+      "price": "₹2000",
+      "image": "http://localhost:3000/shoesimage/Dgotshoes.webp"
+    },
+    {
+      "id": "5",
+      "name": "FTZ",
+      "price": "₹800",
+      "image": "http://localhost:3000/shoesimage/FTZshoes.webp"
+    },
+    {
+      "id": "6",
+      "name": "KILLER",
+      "price": "₹450",
+      "image": "http://localhost:3000/shoesimage/Killershoes.webp"
+    },
+    {
+      "id": "7",
+      "name": "PARAGON",
+      "price": "₹999",
+      "image": "http://localhost:3000/shoesimage/paragonshoes.webp"
+    },
+    {
+      "id": "8",
+      "name": "URBAN",
+      "price": "₹700",
+      "image": "http://localhost:3000/shoesimage/URBANBOXshoes.webp"
+    }
+  ]
+}

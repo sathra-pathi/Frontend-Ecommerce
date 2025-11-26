@@ -1,0 +1,29 @@
+.footer {
+  background: #6c6c6c;       
+  padding: 20px 0;
+  margin-top: 40px;
+  border-radius: 10px 10px 0 0; 
+  color: white;
+  text-align: center;
+}
+
+.footer-wrapper {
+  margin-bottom: 10px;
+}
+
+.footer-title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.footer-text {
+  margin: 5px 0 10px;
+  font-size: 15px;
+  color: #e5e5e5;
+}
+
+.footer-copy {
+  font-size: 14px;
+  color: #d1d1d1;
+}
