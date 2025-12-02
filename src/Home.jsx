@@ -17,6 +17,7 @@ function Home() {
       
       <h2 className="section-title">Top Deals</h2>
       <div className="top-deals">
+        
         <div className="deal-card">
           <img src="https://m.media-amazon.com/images/I/71d7rfSl0wL._SL1500_.jpg" alt="Deal" />
           <p>iPhone 15</p>

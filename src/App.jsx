@@ -8,6 +8,7 @@ import ProductDetails from "./ProductDetails";
 import Home from "./Home";
 import Shoespage from "./Shoespage";
 import Cart from "./Cart";
+import Skincarepage from "./Skincarepage";
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/products/Mobiles" element={<MobilesPage />} />
         <Route path="/products/laptops" element={<LaptopPage />} />
         <Route path="/products/Shoes" element={<Shoespage />} />
+        <Route path="/products/Skincare" element={<Skincarepage />} />
         <Route path="/products/:category/:id"element={<ProductDetails />}/>
 
         

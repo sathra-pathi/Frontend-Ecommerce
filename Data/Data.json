@@ -5,6 +5,7 @@
       "Name": "MOBILES",
       "image": "http://localhost:3000/Images/Mobiles.jpg",
       "link": "/products/mobiles"
+       
     },
     {
       "id": "2",
@@ -31,56 +32,107 @@
       "name": "IPHONE 14",
       "price": "₹1,70,000",
       "image": "http://localhost:3000/mobiles/mobile1.jpg",
-      "link": "/products/mobiles/iphone"
+      "link": "/products/mobiles/iphone",
+      "brand":"APPLE",
+      "model":"Iphone 14",
+      "Ram": "12 GB",
+      "storage": "526 GB",
+      "battery": "5 hours",
+      "camera": "50MP + 50MP | 32MP Front"
+      
+
     },
     {
       "id": "2",
       "name": "Samsung S23",
       "price": "₹1,00,000",
       "image": "http://localhost:3000/mobiles/mobile2.jpg",
-      "link": "/products/mobiles/samsungs23"
+      "link": "/products/mobiles/samsungs23",
+      "brand":"SAMSUNG",
+      "model":"samsung S23",
+      "Ram": "12 GB",
+      "storage": "256 GB",
+      "battery": "5000 mAh",
+      "camera": "50MP + 100MP | 32MP Front"
+      
     },
     {
       "id": "3",
       "name": "Redmi",
       "price": "₹15,000",
       "image": "http://localhost:3000/mobiles/Redmi.jpg",
-      "link": "/products/mobiles/Redmi"
+      "link": "/products/mobiles/Redmi",
+      "brand":"MI",
+      "model":"redmi 9",
+      "Ram": "4 GB",
+      "storage": "64 GB",
+      "battery": "4079 mAh",
+      "camera": "12MP + 12MP | 12MP Front"
     },
     {
       "id": "4",
       "name": "Realme",
       "price": "₹20,000",
       "image": "http://localhost:3000/mobiles/Realme.jpg",
-      "link": "/products/mobiles/Realme"
+      "link": "/products/mobiles/Realme",
+      "brand":"REALME",
+      "model":"Realme p4",
+      "Ram": "6 GB",
+      "storage": "128 GB",
+      "battery": "4000 mAh",
+      "camera": "12MP + 12MP | 12MP Front"
     },
     {
       "id": "5",
-      "name": "POCO X&",
+      "name": "POCO X8",
       "price": "₹25,000",
       "image": "http://localhost:3000/mobiles/pocox7.webp",
-      "link": "/products/mobiles/pocox7"
+      "link": "/products/mobiles/pocox7",
+      "brand":"POCO",
+      "model":"Poco X8",
+      "Ram": "6 GB",
+      "storage": "128 GB",
+      "battery": "3279 mAh",
+      "camera": "12MP + 12MP | 12MP Front"
     },
     {
       "id": "6",
       "name": "Iqoo neo 10",
       "price": "₹35,000",
       "image": "http://localhost:3000/mobiles/Iqooneo 10.jpg",
-      "link": "/products/mobiles/IqooNeo10"
+      "link": "/products/mobiles/IqooNeo10",
+      "brand":"VIVO",
+      "model":"Iqoo neo 10",
+      "Ram": "6 GB",
+      "storage": "128 GB",
+      "battery": "3279 mAh",
+      "camera": "22MP + 12MP | 8MP Front"
     },
     {
       "id": "7",
       "name": "Oneplus Nord 5",
       "price": "₹47,000",
       "image": "http://localhost:3000/mobiles/OneplusNord5.webp",
-      "link": "/products/mobiles/OneplusNord5"
+      "link": "/products/mobiles/OneplusNord5",
+      "brand":"ONEPLUS",
+      "model":"One plus Nord 5",
+      "Ram": "8 GB",
+      "storage": "128 GB",
+      "battery": "5000 mAh",
+      "camera": "50MP + 20MP | 32MP Front"
     },
     {
       "id": "8",
       "name": "OPPO RENO 14",
       "price": "₹27,000",
       "image": "http://localhost:3000/mobiles/OppoReno14.webp",
-      "link": "/products/mobiles/Opporeno14"
+      "link": "/products/mobiles/Opporeno14",
+      "brand":"OPPO",
+      "model":"Oppo Reno 14",
+      "Ram": "6 GB",
+      "storage": "128 GB",
+      "battery": "3279 mAh",
+      "camera": "12MP + 12MP | 12MP Front"
     }
   ],
   "Laptops": [
@@ -88,49 +140,65 @@
       "id": "1",
       "name": "ACER",
       "price": "₹1,70,000",
-      "image": "http://localhost:3000/lapimage/Acer.webp"
+      "image": "http://localhost:3000/lapimage/Acer.webp",
+      "brand":"ACER",
+      "model":"Acer a2"
     },
     {
       "id": "2",
       "name": "APPLE MAC",
       "price": "₹1,00,000",
-      "image": "http://localhost:3000/lapimage/Apple MAc.webp"
+      "image": "http://localhost:3000/lapimage/Apple MAc.webp",
+      "brand":"APPLE",
+      "model":"Mac Air M2"
     },
     {
       "id": "3",
       "name": "ASUS",
       "price": "₹15,000",
-      "image": "http://localhost:3000/lapimage/Asus.webp"
+      "image": "http://localhost:3000/lapimage/Asus.webp",
+      "brand":"ASUS",
+      "model":"Asus Tuf"
     },
     {
       "id": "4",
       "name": "DELL",
       "price": "₹20,000",
-      "image": "http://localhost:3000/lapimage/DELL.webp"
+      "image": "http://localhost:3000/lapimage/DELL.webp",
+      "brand":"DELL",
+      "model":"Dell Latitude"
     },
     {
       "id": "5",
       "name": "HP",
       "price": "₹60,000",
-      "image": "http://localhost:3000/lapimage/HP.webp"
+      "image": "http://localhost:3000/lapimage/HP.webp",
+      "brand":"HP",
+      "model":"HP Vivo Book"
     },
     {
       "id": "6",
       "name": "INFINIX",
       "price": "₹35,000",
-      "image": "http://localhost:3000/lapimage/Infinix.webp"
+      "image": "http://localhost:3000/lapimage/Infinix.webp",
+      "brand":"INFINIX",
+      "model":"Infinix e2"
     },
     {
       "id": "7",
       "name": "LENOVO",
       "price": "₹47,000",
-      "image": "http://localhost:3000/lapimage/Lenovo.webp"
+      "image": "http://localhost:3000/lapimage/Lenovo.webp",
+      "brand":"LENOVO",
+      "model":"Lenovo Thinkpad"
     },
     {
       "id": "8",
       "name": "SAMSUNG",
       "price": "₹60,000",
-      "image": "http://localhost:3000/lapimage/Samsung.webp"
+      "image": "http://localhost:3000/lapimage/Samsung.webp",
+      "brand":"SAMSUNG",
+      "model":"samsung Book"
     }
   ],
   "Shoes": [
@@ -138,49 +206,132 @@
       "id": "1",
       "name": "AJANTA",
       "price": "₹600",
-      "image": "http://localhost:3000/shoesimage/AJANTAshoes.webp"
+      "image": "http://localhost:3000/shoesimage/AJANTAshoes.webp",
+      "brand":"AJANTA",
+      "model":"Formal"
     },
     {
       "id": "2",
       "name": "ASIAN",
       "price": "₹300",
-      "image": "http://localhost:3000/shoesimage/asianshoes.webp"
+      "image": "http://localhost:3000/shoesimage/asianshoes.webp",
+      "brand":"ASIAN",
+      "model":"Casual"
     },
     {
       "id": "3",
       "name": "BRUTON",
       "price": "₹500",
-      "image": "http://localhost:3000/shoesimage/Brutonshoes.webp"
+      "image": "http://localhost:3000/shoesimage/Brutonshoes.webp",
+      "brand":"BRUTON",
+      "model":"Sports"
     },
     {
       "id": "4",
       "name": "D GOT",
       "price": "₹2000",
-      "image": "http://localhost:3000/shoesimage/Dgotshoes.webp"
+      "image": "http://localhost:3000/shoesimage/Dgotshoes.webp",
+      "brand":"GOT",
+      "model":"Formal"
     },
     {
       "id": "5",
       "name": "FTZ",
       "price": "₹800",
-      "image": "http://localhost:3000/shoesimage/FTZshoes.webp"
+      "image": "http://localhost:3000/shoesimage/FTZshoes.webp",
+      "brand":"FTZ",
+      "model":"Casual"
     },
     {
       "id": "6",
       "name": "KILLER",
       "price": "₹450",
-      "image": "http://localhost:3000/shoesimage/Killershoes.webp"
+      "image": "http://localhost:3000/shoesimage/Killershoes.webp",
+      "brand":"KILLER",
+      "model":"casual"
     },
     {
       "id": "7",
       "name": "PARAGON",
       "price": "₹999",
-      "image": "http://localhost:3000/shoesimage/paragonshoes.webp"
+      "image": "http://localhost:3000/shoesimage/paragonshoes.webp",
+      "brand":"PARAGON",
+      "model":"Formal"
     },
     {
       "id": "8",
       "name": "URBAN",
       "price": "₹700",
-      "image": "http://localhost:3000/shoesimage/URBANBOXshoes.webp"
+      "image": "http://localhost:3000/shoesimage/URBANBOXshoes.webp",
+      "brand":"URBAN",
+      "model":"casual"
     }
-  ]
+  ],
+  "Skincare":[
+    {
+      "id": "1",
+      "name": "FACEWASH",
+      "price": "₹300",
+      "image": "http://localhost:3000/Skincare/cetaphil.webp",
+      "brand":"CETAPHIL",
+      "model":"Gentle Skin Cleaner"
+    },
+    {
+      "id": "2",
+      "name": "SERUM",
+      "price": "₹350",
+      "image": "http://localhost:3000/Skincare/kojiacid.webp",
+      "brand":"DERMATOUCH",
+      "model":"KOjic Acid"
+    },
+    {
+      "id": "3",
+      "name": "LIPBAM",
+      "price": "₹100",
+      "image": "http://localhost:3000/Skincare/Lipbam.webp",
+      "brand":"CHEMIST PLAY",
+      "model":"Lip Bam"
+    },
+    {
+      "id": "4",
+      "name": "LOTION",
+      "price": "₹150",
+      "image": "http://localhost:3000/Skincare/Lotion.webp",
+      "brand":"NIVEA",
+      "model":"Body Milk"
+    },
+    {
+      "id": "5",
+      "name": "MOISTURAISER",
+      "price": "₹250",
+      "image": "http://localhost:3000/Skincare/moisturaiser.webp",
+      "brand":"NIVEA",
+      "model":"Soft"
+    },
+    {
+      "id": "6",
+      "name": "SERUM",
+      "price": "₹400",
+      "image": "http://localhost:3000/Skincare/serum.webp",
+      "brand":"NIACINAMID",
+      "model":"10%Serum"
+    },
+    {
+      "id": "7",
+      "name": "CINTHOL SOAP",
+      "price": "₹10",
+      "image": "http://localhost:3000/Skincare/soap.webp",
+      "brand":"CINTHOL",
+      "model":"Soap"
+    },
+    {
+      "id": "8",
+      "name": "SUNSCREEM",
+      "price": "₹700",
+      "image": "http://localhost:3000/Skincare/sunscreen.webp",
+      "brand":"Deconstructer",
+      "model":"Gel SunScreen"
+    }
+
+          ]
 }

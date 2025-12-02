@@ -37,6 +37,7 @@ if(!product)
       
       navigate(`/products/${category}`)
   }
+  
   return (
     <div className="product-container">
 
@@ -56,7 +57,7 @@ if(!product)
       </div>
 
       <div className="product-right">
-        <h2>{product.name}(128 GB, Blue)</h2>
+        <h2>{product.name}</h2>
 
         <p className="rating">⭐ 4.5 | 3,421 Ratings & 521 Reviews</p>
 
@@ -71,12 +72,14 @@ if(!product)
 
         <h3>Product Details</h3>
         <table className="details-table">
-          <tr><td>Brand</td><td>Apple</td></tr>
-          <tr><td>Model</td><td>iPhone 14</td></tr>
-          <tr><td>RAM / Storage</td><td>6 GB / 128 GB</td></tr>
-          <tr><td>Battery</td><td>3279 mAh</td></tr>
-          <tr><td>Camera</td><td>12MP + 12MP | 12MP Front</td></tr>
-          <tr><td>Processor</td><td>A15 Bionic Chip</td></tr>
+          <tr><td>Brand</td><td>{product.brand}</td></tr>
+          <tr><td>Model</td><td>{product.model}</td></tr>
+          {product.Ram &&(
+          <tr><td>RAM / Storage</td><td>{product.Ram} / {product.storage}</td></tr>)}
+          {product.battery &&(
+          <tr><td>Battery</td><td>{product.battery}</td></tr>)}
+          {product.camera &&(
+          <tr><td>Camera</td><td>{product.camera}</td></tr>)}
         </table>
       </div>
     </div>

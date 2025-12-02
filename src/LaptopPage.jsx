@@ -20,7 +20,7 @@ function LaptopPage(){
             <div className="mobile-card">
               <img src={l.image} alt={l.name} className="mobile-img" />
               <h3>{l.name}</h3>
-              <p className="price">₹{l.price}</p>
+              <p className="price">{l.price}</p>
             </div>
           </Link>
         ))}

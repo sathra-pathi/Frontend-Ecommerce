@@ -21,7 +21,7 @@ function MobilesPage() {
             <div className="mobile-card">
               <img src={m.image} alt={m.name} className="mobile-img" />
               <h3>{m.name}</h3>
-              <p className="price">₹{m.price}</p>
+              <p className="price">{m.price}</p>
             </div>
           </Link>
         ))}
