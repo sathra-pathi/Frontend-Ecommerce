@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Home.css";
 import samsung from"./assets/samsungs23.avif";
-import mac from "./assets/Macbook.webp";
+import mac from "./assets/macbook.webp";
 import banner from"./assets/bannerr.jpg"
 
 function Home() {
