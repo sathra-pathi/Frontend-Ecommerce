@@ -2,14 +2,15 @@ import { Link } from 'react-router-dom';
 import Front2 from './Front2';
 import { useEffect, useState } from 'react';
 import "./ProductsList.css";
+import axios from "axios";
 
 function ProductsList(){
     const [Products, setproducts] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3000/Products')
-            .then((response) => response.json())
-            .then((data) => setproducts(data));
+       fetch('https://backend-ecommerce-kx63.onrender.com/products')
+       .then((response)=>response.json())
+       .then((data)=>setproducts(data))
     }, []);
 
     return (
@@ -23,7 +24,7 @@ function ProductsList(){
                       to={p.link} 
                       className="product-link"
                     >
-                        <Front2 Name={p.Name} image={p.image} />
+                        <Front2 Name={p.name} image={p.image} />
                     </Link>
                 ))}
             </div>

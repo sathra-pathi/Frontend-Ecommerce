@@ -1,4 +1,7 @@
 
+.product-title{
+  text-align: center;
+}
 .products-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));

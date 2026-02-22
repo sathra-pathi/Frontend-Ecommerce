@@ -42,22 +42,22 @@ function Home() {
       <div className="category-grid">
 
         <Link to="/products/mobiles" className="cat-card">
-          <img src="http://localhost:3000/Images/Mobiles.jpg" alt="Mobiles" />
+          <img src="https://backend-ecommerce-kx63.onrender.com/Images/Mobiles.jpg" alt="Mobiles" />
           <p>Mobiles</p>
         </Link>
 
         <Link to="/products/laptops" className="cat-card">
-          <img src="http://localhost:3000/Images/Laptops.jpg" alt="Laptops" />
+          <img src="https://backend-ecommerce-kx63.onrender.com//Images/Laptops.jpg" alt="Laptops" />
           <p>Laptops</p>
         </Link>
 
         <Link to="/products/shoes" className="cat-card">
-          <img src="http://localhost:3000/Images/shoes (2).jpg" alt="Shoes" />
+          <img src="https://backend-ecommerce-kx63.onrender.com//Images/shoes (2).jpg" alt="Shoes" />
           <p>Shoes</p>
         </Link>
 
         <Link to="/products/skincare" className="cat-card">
-          <img src="http://localhost:3000/Images/Products.jpg" alt="Skincare" />
+          <img src="https://backend-ecommerce-kx63.onrender.com//Images/Products.jpg" alt="Skincare" />
           <p>Skincare</p>
         </Link>
 

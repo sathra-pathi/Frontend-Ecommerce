@@ -9,6 +9,7 @@ import Home from "./Home";
 import Shoespage from "./Shoespage";
 import Cart from "./Cart";
 import Skincarepage from "./Skincarepage";
+import Buypage from "./Buypage";
 
 
 function App() {
@@ -24,11 +25,14 @@ function App() {
         <Route path="/products/Shoes" element={<Shoespage />} />
         <Route path="/products/Skincare" element={<Skincarepage />} />
         <Route path="/products/:category/:id"element={<ProductDetails />}/>
-
+         <Route path="/buy/:id" element={<Buypage />} />
+        
         
       </Routes>
     <Footer></Footer>
+    
     </BrowserRouter>
+    
     
     
   );

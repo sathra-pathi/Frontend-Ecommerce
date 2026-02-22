@@ -10,7 +10,7 @@ function ProductDetails(props) {
   let navigate = useNavigate();
 
   useEffect(() => {
-    fetch(`http://localhost:3000/${category}/${id}`)
+    fetch(`https://backend-ecommerce-kx63.onrender.com/${category}/${id}`)
       .then((res) => res.json())
       .then((data) => setProduct(data));
   }, [category,id]);
@@ -24,9 +24,12 @@ if(!product)
 
     navigate("/cart");  
   };
+  const handleBuy = (id) => {
+    navigate(`/buy/${id}`);
+  };
   function deleteProduct(){
       
-        fetch(`http://localhost:3000/${category}/${id}`, {
+        fetch(`https://backend-ecommerce-kx63.onrender.com/${category}/${id}`, {
           method:"DELETE"
 
         }
@@ -44,13 +47,13 @@ if(!product)
       
       <div className="product-left">
         <img
-          src={product.image}
+          src={`https://backend-ecommerce-kx63.onrender.com/Images/${product.image}`}
           className="main-image"
           alt={product.name}
         />
 
         <div className="btn-section">
-          <button className="buy-btn">BUY NOW</button>
+          <button className="buy-btn" onClick={() => handleBuy(product.id)}>BUY NOW</button>
           <button className="cart-btn" onClick={addToCart}>ADD TO CART</button>
           <button className="buy-btn" onClick={deleteProduct}>DELETE</button>
         </div>

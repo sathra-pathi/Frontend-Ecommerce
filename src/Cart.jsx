@@ -16,7 +16,7 @@ function Cart() {
   };
 
   const totalPrice = cartItems.reduce((total, item) => {
-  const cleanPrice = Number(item.price.replace(/[^0-9]/g, ""));
+  const cleanPrice = Number(item.price);
   return total + cleanPrice;
 }, 0);
 
@@ -32,7 +32,7 @@ function Cart() {
         ) : (
           cartItems.map((item) => (
             <div className="cart-item" key={item.id}>
-              <img src={item.image} alt={item.name} className="cart-image" />
+              <img src={`https://backend-ecommerce-kx63.onrender.com/${item.image}`} alt={item.name} className="cart-image" />
 
               <div className="cart-details">
                   <h3>{item.name}</h3>

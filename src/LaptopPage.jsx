@@ -5,7 +5,7 @@ import"./Mobiles.css";
 function LaptopPage(){
     const[laptops,setlaptop]=useState([])
     useEffect(()=>{
-    fetch("http://localhost:3000/Laptops")
+    fetch("https://backend-ecommerce-kx63.onrender.com/laptops")
     .then((reponse)=>reponse.json())
     .then((data)=>setlaptop(data))
     },[]);
@@ -16,9 +16,9 @@ function LaptopPage(){
 
       <div className="mobiles-grid">
         {laptops.map((l) => (
-          <Link key={l.id} to={`/products/Laptops/${l.id}`} className="mobile-link">
+          <Link key={l.id} to={`/products/laptops/${l.id}`} className="mobile-link">
             <div className="mobile-card">
-              <img src={l.image} alt={l.name} className="mobile-img" />
+              <img src={`https://backend-ecommerce-kx63.onrender.com/Images/${l.image}`} alt={l.name} className="mobile-img" />
               <h3>{l.name}</h3>
               <p className="price">{l.price}</p>
             </div>

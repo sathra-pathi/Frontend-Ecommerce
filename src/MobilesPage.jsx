@@ -6,7 +6,7 @@ function MobilesPage() {
   const [mobiles, setmobiles] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:3000/Mobiles")
+    fetch("https://backend-ecommerce-kx63.onrender.com/mobile")
       .then((response) => response.json())
       .then((data) => setmobiles(data));
   }, []);
@@ -17,9 +17,9 @@ function MobilesPage() {
 
       <div className="mobiles-grid">
         {mobiles.map((m) => (
-          <Link key={m.id} to={`/products/Mobiles/${m.id}`} className="mobile-link">
+          <Link key={m.id} to={`/products/mobile/${m.id}`} className="mobile-link">
             <div className="mobile-card">
-              <img src={m.image} alt={m.name} className="mobile-img" />
+              <img src={`https://backend-ecommerce-kx63.onrender.com/Images/${m.image}`} alt={m.name} className="mobile-img" />
               <h3>{m.name}</h3>
               <p className="price">{m.price}</p>
             </div>
