@@ -18,7 +18,7 @@ function LaptopPage(){
         {laptops.map((l) => (
           <Link key={l.id} to={`/products/laptops/${l.id}`} className="mobile-link">
             <div className="mobile-card">
-              <img src={`https://backend-ecommerce-kx63.onrender.com/Images/${l.image}`} alt={l.name} className="mobile-img" />
+              <img src={`https://backend-ecommerce-kx63.onrender.com/Images/${l.image}`}loading="lazy" alt={l.name} className="mobile-img" />
               <h3>{l.name}</h3>
               <p className="price">{l.price}</p>
             </div>

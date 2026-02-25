@@ -47,7 +47,7 @@ if(!product)
       
       <div className="product-left">
         <img
-          src={`https://backend-ecommerce-kx63.onrender.com/Images/${product.image}`}
+          src={`https://backend-ecommerce-kx63.onrender.com/Images/${product.image}`} loading="lazy"
           className="main-image"
           alt={product.name}
         />
